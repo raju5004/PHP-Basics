@@ -1,7 +1,7 @@
 <?php
-$isComplete = (string)false;
+$isComplete = [];
 
-var_dump($isComplete);
+var_dump(is_bool($isComplete));
 
 if ($isComplete){
     //do somthing
